@@ -5,6 +5,22 @@
 
 /* NAVIGATION */
 
+/* Headers */
+
+h1{
+  font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 68px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #082969;
+}
+
+
 /*
 /* Page Specific Styles */
 /*
