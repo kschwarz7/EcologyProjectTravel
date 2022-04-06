@@ -2,24 +2,36 @@
 /* GLOBAL */
 /*
 /* things that apply to everything on the site: fonts, colour variables etc...*/
-
+body {
+  font-family: "Lora";
+}
 /* NAVIGATION */
+
+nav a {
+  text-decoration: none;
+  color: orange;
+  transition: all 2s ease;
+}
+
+nav a: hover, nav a: focus {
+  color: green;
+  text-decoration: underline;
+}
 
 /* Headers */
 
-h1{
-  font-family: 'Lora';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 68px;
-display: flex;
-align-items: center;
-text-align: center;
+h1 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 68px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-color: #082969;
+  color: #082969;
 }
-
 
 /*
 /* Page Specific Styles */
