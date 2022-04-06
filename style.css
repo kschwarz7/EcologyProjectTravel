@@ -4,6 +4,9 @@
 /* things that apply to everything on the site: fonts, colour variables etc...*/
 body {
   font-family: "Lora", serif;
+  background-image: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_9498.JPG?v=1649198807404");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* NAVIGATION */
 
@@ -13,7 +16,8 @@ nav a {
   transition: all 0.5s ease;
 }
 
-nav a:hover, nav a:focus {
+nav a:hover,
+nav a:focus {
   color: green;
   text-decoration: underline;
 }
@@ -40,24 +44,22 @@ h1 {
 
 /* HOME PAGE */
 
-.flex div{
-  background: #7DCE82;
+.flex div {
+  background: #7dce82;
   width: 45%;
   min-width: 200px;
-  border: 1px solid #2E282A;
+  border: 1px solid #2e282a;
   margin: 1%;
-  min-height: 100px; 
+  min-height: 100px;
 }
 
 .flex {
   display: flex;
-  background: #FFB86F;
   min-height: 500px;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-    
 }
 
 /* ABOUT PAGE */
@@ -67,7 +69,7 @@ h1 {
 /* MEDIA QUERIES */
 
 /* leave media queries here */
-@media(min-width: 800px) {
+@media (min-width: 800px) {
   .flex {
     flex-direction: row;
     align-content: flex-start;
