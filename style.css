@@ -44,12 +44,21 @@ h1 {
   background: #7DCE82;
   width: 45%;
   min-width: 200px;
-  border: 1px solid black;
+  border: 1px solid #2E282A;
   margin: 1%;
   min-height: 100px; 
 }
 
-
+.flex {
+  display: flex;
+  background: #FFB86F;
+  min-height: 500px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+    
+}
 
 /* ABOUT PAGE */
 
@@ -58,3 +67,9 @@ h1 {
 /* MEDIA QUERIES */
 
 /* leave media queries here */
+@media(min-width: 800px) {
+  .flex {
+    flex-direction: row;
+    align-content: flex-start;
+  }
+}
