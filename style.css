@@ -86,21 +86,24 @@ img {
 /* MENU PAGE */
 
 button{
-  border: 1px solid #2e282a;
+  background: white;
   width: 45%;
+  min-width: 200px;
+  border: 1px solid #2e282a;
   margin: 1%;
-  min-height: 100px;
+  min-height: 300px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 /* MEDIA QUERIES */
 
 /* leave media queries here */
 @media (min-width: 800px) {
-  .flex {
+  .flex,{
     flex-direction: row;
     align-content: flex-start;
   }
