@@ -70,6 +70,8 @@ h1 {
 
 img {
   width: 45%;
+  margin: 1%;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
