@@ -103,7 +103,7 @@ button{
 
 /* leave media queries here */
 @media (min-width: 800px) {
-  .flex,{
+  .flex {
     flex-direction: row;
     align-content: flex-start;
   }
