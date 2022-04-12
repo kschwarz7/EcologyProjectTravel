@@ -85,6 +85,17 @@ img {
 
 /* MENU PAGE */
 
+button{
+  border: 1px solid #2e282a;
+  width: 45%;
+  margin: 1%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
 /* MEDIA QUERIES */
 
 /* leave media queries here */
