@@ -33,7 +33,6 @@ h1 {
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #082969;
 }
 
@@ -79,8 +78,10 @@ img {
   justify-content: center;
 }
 
-
 /* ABOUT PAGE */
+
+img {
+}
 
 /* MENU PAGE */
 
