@@ -101,7 +101,7 @@ img {
 }
 
 .flip-card-back1 {
-  background-color: dodgerblue;
+  background-color: #FFB86F;
   color: white;
   transform: rotateY(180deg);
 }
@@ -136,12 +136,18 @@ img {
 }
 
 .flip-card-back2 {
-  background-color: dodgerblue;
+  background-color: #2A7221;
   color: white;
   transform: rotateY(180deg);
 }
 
-.flip-card2:hover .flip-card-inner1 {
+.flip-cards-back2, h1 {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.flip-card2:hover .flip-card-inner2 {
   transform: rotateY(180deg);
 }
 
