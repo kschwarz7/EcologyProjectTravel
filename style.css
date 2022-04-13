@@ -117,7 +117,11 @@ img {
 .flip-card1:hover .flip-card-inner1 {
   transform: rotateY(180deg);
 }
-
+.flip-card-front1{
+  width: 300px;
+  height: 300px;
+  background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/8DDAE477-00B1-4588-8E8A-B6A587E968AC.JPG?v=1649199170308");
+}
 .flip-card-front1, .flip-card-back1 {
   position: absolute;
   width: 100%;
@@ -221,6 +225,18 @@ img {
 /* leave media queries here */
 @media (min-width: 800px) {
   .flex {
+    flex-direction: row;
+    align-content: flex-start;
+  }
+  .flip-card1 {
+    flex-direction: row;
+    align-content: flex-start;
+  }
+  .flip-card2 {
+    flex-direction: row;
+    align-content: flex-start;
+  }
+  .flip-card3 {
     flex-direction: row;
     align-content: flex-start;
   }
