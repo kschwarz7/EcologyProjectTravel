@@ -89,6 +89,7 @@ img {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  font-size: 30px;
 }
 
 .wrapper{
@@ -140,6 +141,10 @@ img {
   background-color: #424B54
 }
 
+.island{
+  background-color: #EBCFB2
+}
+
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -168,6 +173,36 @@ img {
 
 .image5{
   background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/Enlight99.JPG?v=1649792157393");
+  background-size: cover;
+  background-position: center; 
+}
+
+.image6{
+  background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/BAJA%202018.jpg?v=1649796655096");
+  background-size: cover;
+  background-position: center; 
+}
+
+.image7{
+  background: url("");
+  background-size: cover;
+  background-position: center; 
+}
+
+.image8{
+  background: url("");
+  background-size: cover;
+  background-position: center; 
+}
+
+.image9{
+  background: url("");
+  background-size: cover;
+  background-position: center; 
+}
+
+.image{
+  background: url("");
   background-size: cover;
   background-position: center; 
 }
