@@ -120,7 +120,7 @@ img {
 }
 
 .flip-card-back {
-  background-color: #FFB86F;
+  background-color: #f16a10;
   color: white;
   transform: rotateY(180deg);
 }
@@ -134,23 +134,23 @@ img {
 }
 
 .dog{
-  background-color: #A8F9FF
+  background-color: #4b97ae
 }
 
 .connor{
-  background-color: #424B54
+  background-color: #89919c
 }
 
 .island{
-  background-color: #2EC4B6
+  background-color: #356857
 }
 
 .algae{
-  background-color: #FFC800
+  background-color: #ffe02d
 }
 
 .homebase{
-  background-color: #DDAE7E
+  background-color: #ffe1b3
 }
 
 .flip-card:hover .flip-card-inner {
