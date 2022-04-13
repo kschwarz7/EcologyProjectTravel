@@ -145,6 +145,10 @@ img {
   background-color: #EBCFB2
 }
 
+.algae{
+  background-color: #
+}
+
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
