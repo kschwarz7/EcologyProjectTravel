@@ -84,10 +84,11 @@ img {
 
 /* MENU PAGE */
 
-.menu{
+.menu h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .wrapper{
@@ -135,6 +136,10 @@ img {
   background-color: #A8F9FF
 }
 
+.connor{
+  background-color: #19323C
+}
+
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -157,6 +162,12 @@ img {
 
 .image4{
   background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/405619BF-A1F9-4FAE-B9F3-467C99E1ECED.JPG?v=1649792089785");
+  background-size: cover;
+  background-position: center; 
+}
+
+.image5{
+  background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/Enlight99.JPG?v=1649792157393");
   background-size: cover;
   background-position: center; 
 }
