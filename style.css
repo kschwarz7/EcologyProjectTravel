@@ -142,11 +142,11 @@ img {
 }
 
 .island{
-  background-color: #EBCFB2
+  background-color: #2EC4B6
 }
 
 .algae{
-  background-color: #
+  background-color: #FFC800
 }
 
 .flip-card:hover .flip-card-inner {
@@ -188,7 +188,7 @@ img {
 }
 
 .image7{
-  background: url("");
+  background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_9622.JPG?v=1649793176088");
   background-size: cover;
   background-position: center; 
 }
