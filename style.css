@@ -125,7 +125,7 @@ img {
   transform: rotateY(180deg);
 }
 
-.desert{
+.tree{
   background-color: #2A7221;
 }
 
@@ -147,6 +147,10 @@ img {
 
 .algae{
   background-color: #FFC800
+}
+
+.homebase{
+  background-color: #DDAE7E
 }
 
 .flip-card:hover .flip-card-inner {
@@ -194,7 +198,7 @@ img {
 }
 
 .image8{
-  background: url("");
+  background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_9424.JPG?v=1649792224013");
   background-size: cover;
   background-position: center; 
 }
