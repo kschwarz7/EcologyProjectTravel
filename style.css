@@ -85,10 +85,19 @@ img {
 
 /* MENU PAGE */
 
+
 .flip-card1 {
   background-color: transparent;
   width: 300px;
   height: 200px;
+  width: 45%;
+  margin: 1%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 .flip-card-inner1 {
   position: relative;
@@ -123,6 +132,14 @@ img {
   background-color: transparent;
   width: 300px;
   height: 200px;
+  width: 45%;
+  margin: 1%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 .flip-card-inner2 {
   position: relative;
@@ -163,6 +180,14 @@ img {
   background-color: transparent;
   width: 300px;
   height: 200px;
+  width: 45%;
+  margin: 1%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 .flip-card-inner3 {
   position: relative;
@@ -174,8 +199,8 @@ img {
 }
 
 .flip-card-back3 {
-  background-color: #;
-  color: white;
+  background-color: #C7EFCF;
+  color: #2E282A;
   transform: rotateY(180deg);
 }
 
