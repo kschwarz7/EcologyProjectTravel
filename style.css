@@ -130,7 +130,7 @@ img {
 }
 
 .sky{
-  background-color: #7BCDBA
+  background-color: #C4E0F9
 }
 
 .dog{
@@ -200,7 +200,7 @@ img {
 .image8{
   background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_9424.JPG?v=1649792224013");
   background-size: cover;
-  background-position: center; 
+  background-position: center bottom; 
 }
 
 .image9{
