@@ -86,7 +86,7 @@ img {
 /* MENU PAGE */
 
 
-.flip-card1 {
+.flip-card {
   background-color: transparent;
   width: 300px;
   height: 200px;
@@ -99,7 +99,7 @@ img {
   align-content: center;
   justify-content: center;
 }
-.flip-card-inner1 {
+.flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -108,21 +108,30 @@ img {
   transform-style: preserve-3d;
 }
 
-.flip-card-back1 {
+.flip-card-back {
   background-color: #FFB86F;
   color: white;
   transform: rotateY(180deg);
 }
 
-.flip-card1:hover .flip-card-inner1 {
+.desert{
+  background-color: #7BCDBA;
+}
+
+.flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-.flip-card-front1{
-  width: 300px;
-  height: 300px;
+.flip-card-front{
   background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/8DDAE477-00B1-4588-8E8A-B6A587E968AC.JPG?v=1649199170308");
+  background-size: cover;
+  background-position: center;
 }
-.flip-card-front1, .flip-card-back1 {
+.image2{
+  background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/D1A9A1A4-8ACB-4BF8-BC63-E9F0755177E6.jpeg?v=1649791965611");
+  background-size: cover;
+  background-position: center;
+}
+.flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
