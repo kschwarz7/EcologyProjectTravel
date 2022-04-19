@@ -34,7 +34,25 @@ nav a:hover, nav a:focus {
   text-decoration: underline;
 }
 
-/* Headers */
+.bg-img {
+  background-image: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_0280.JPG?v=1649792729598");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 
 h1 {
   font-family: "Lora", serif;
