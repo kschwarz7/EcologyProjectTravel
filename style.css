@@ -79,13 +79,12 @@ img {
 }
 
 /* ABOUT PAGE */
-.whale{
+.whale {
   height: auto;
-  
 }
 
 .flex2 div {
-  background: #7BCDBA;
+  background: #7bcdba;
   width: 45%;
   min-width: 200px;
   border: 1px solid #2e282a;
@@ -108,9 +107,6 @@ img {
   justify-content: center;
 }
 
-
-
-
 /* MENU PAGE */
 
 .menu h1 {
@@ -121,7 +117,7 @@ img {
   font-size: 30px;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -154,113 +150,117 @@ img {
   transform: rotateY(180deg);
 }
 
-.tree{
+.tree {
   background-color: #536c1b;
 }
 
-.sky{
+.sky {
   background-color: #20658e;
 }
 
-.dog{
+.dog {
   background-color: #4b97ae;
 }
 
-.connor{
+.connor {
   background-color: #89919c;
 }
 
-.island{
+.island {
   background-color: #356857;
 }
 
-.algae{
+.algae {
   background-color: #ffe02d;
 }
 
-.homebase{
+.homebase {
   background-color: #ffe1b3;
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-.flip-card-front{
+.flip-card-front {
   background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/8DDAE477-00B1-4588-8E8A-B6A587E968AC.JPG?v=1649199170308");
   background-size: cover;
   background-position: center;
 }
-.image2{
+.image2 {
   background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/D1A9A1A4-8ACB-4BF8-BC63-E9F0755177E6.jpeg?v=1649791965611");
   background-size: cover;
   background-position: center;
 }
 
-.image3{
+.image3 {
   background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/53066CD1-4A8F-4F28-8E8E-B088D0C1D542.JPG?v=1649792076441");
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
-.image4{
+.image4 {
   background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/405619BF-A1F9-4FAE-B9F3-467C99E1ECED.JPG?v=1649792089785");
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
-.image5{
+.image5 {
   background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/Enlight99.JPG?v=1649792157393");
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
-.image6{
+.image6 {
   background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/BAJA%202018.jpg?v=1649796655096");
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
-.image7{
+.image7 {
   background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_9622.JPG?v=1649793176088");
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
-.image8{
+.image8 {
   background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_9424.JPG?v=1649792224013");
   background-size: cover;
-  background-position: center bottom; 
+  background-position: center bottom;
 }
 
-.image9{
+.image9 {
   background: url("");
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
-.image{
+.image {
   background: url("");
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-  }
-
-
-
-
+}
 
 /* MEDIA QUERIES */
 
 /* leave media queries here */
 @media (min-width: 800px) {
   .flex {
+    flex-direction: row;
+    align-content: flex-start;
+  }
+}
+
+@media (min-width: 800px) {
+  .flex2 {
     flex-direction: row;
     align-content: flex-start;
   }
