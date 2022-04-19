@@ -12,7 +12,7 @@ body {
 /* NAVIGATION */
 
 nav a {
-  float: center;
+  float: inherit;
   text-decoration: none;
   color: orange;
   transition: all 0.5s ease;
@@ -20,13 +20,13 @@ nav a {
   margin: 8px;
   padding: 0;
   display: inline-block;
+  align-items: center;
   padding: 0 20px;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: bold;
   font-family: "Lora", serif;
-  display: flex;
 }
 
 nav a:hover, nav a:focus {
