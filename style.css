@@ -12,13 +12,24 @@ body {
 /* NAVIGATION */
 
 nav a {
+  float: center;
   text-decoration: none;
   color: orange;
   transition: all 0.5s ease;
+  list-style: none;
+  margin: 8px;
+  padding: 0;
+  display: inline-block;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Lora", serif;
+  display: flex;
 }
 
-nav a:hover,
-nav a:focus {
+nav a:hover, nav a:focus {
   color: #ddf9c1;
   text-decoration: underline;
 }
@@ -38,7 +49,7 @@ h1 {
 }
 
 /* page layout*/
-main{
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,30 +100,6 @@ img {
 /* ABOUT PAGE */
 
 
-nav a{
-  float: right;
-}
-nav a {
-  list-style: none;
-  margin: 8px;
-  padding: 0
-}
-nav a {
-  display: inline-block;
-  padding: 0 20px;
-}
-nav a {
-  text-decoration: none;
-  color: #333;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: bold;
-  font-family: 'Lato';
-}
-nav a:hover {
-  text-decoration: underline;
-}
-
 .header-img {
   width: 100%;
   height: 400px;
@@ -148,11 +135,9 @@ nav a:hover {
   justify-content: center;
 }
 
-i{
+i {
   margin: 20px;
 }
-
-
 
 /* MENU PAGE */
 
