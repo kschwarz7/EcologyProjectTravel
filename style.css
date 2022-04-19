@@ -7,6 +7,7 @@ body {
   background-image: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_9498.JPG?v=1649198807404");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 /* NAVIGATION */
 
@@ -86,6 +87,39 @@ img {
 }
 
 /* ABOUT PAGE */
+
+
+nav a{
+  float: right;
+}
+nav a {
+  list-style: none;
+  margin: 8px;
+  padding: 0
+}
+nav a {
+  display: inline-block;
+  padding: 0 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Lato';
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.header-img {
+  width: 100%;
+  height: 400px;
+  background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_0280.JPG?v=1649792729598");
+  background-size: cover;
+}
+
 .whale {
   height: auto;
 }
@@ -117,6 +151,8 @@ img {
 i{
   margin: 20px;
 }
+
+
 
 /* MENU PAGE */
 
