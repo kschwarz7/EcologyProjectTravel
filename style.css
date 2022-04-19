@@ -36,6 +36,13 @@ h1 {
   color: #082969;
 }
 
+/* page layout*/
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*
 /* Page Specific Styles */
 /*
@@ -105,6 +112,10 @@ img {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+}
+
+i{
+  margin: 20px;
 }
 
 /* MENU PAGE */
