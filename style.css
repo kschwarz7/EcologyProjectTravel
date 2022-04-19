@@ -84,6 +84,30 @@ img {
   
 }
 
+.flex2 div {
+  background: #c7ac92;
+  width: 45%;
+  min-width: 200px;
+  border: 1px solid #2e282a;
+  margin: 1%;
+  min-height: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex2 {
+  display: flex;
+  min-height: 500px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
 
 /* MENU PAGE */
 
