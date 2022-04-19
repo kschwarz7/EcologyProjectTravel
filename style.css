@@ -12,8 +12,7 @@ body {
 /* NAVIGATION */
 
 nav a {
-  float: inherit;
-  text-decoration: none;
+  float: left;
   color: orange;
   transition: all 0.5s ease;
   list-style: none;
@@ -22,6 +21,7 @@ nav a {
   display: inline-block;
   align-items: center;
   padding: 0 20px;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 17px;
@@ -29,14 +29,16 @@ nav a {
   font-family: "Lora", serif;
 }
 
-nav a:hover, nav a:focus {
+nav a:hover,
+nav a:focus {
   color: #ddf9c1;
   text-decoration: underline;
 }
 
 .bg-img {
   background-image: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_0280.JPG?v=1649792729598");
-  min-height: 380px;
+  width: 100%;
+  height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,7 +53,6 @@ nav a:hover, nav a:focus {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
 }
 
 h1 {
@@ -116,18 +117,6 @@ img {
 }
 
 /* ABOUT PAGE */
-
-
-.header-img {
-  width: 100%;
-  height: 400px;
-  background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_0280.JPG?v=1649792729598");
-  background-size: cover;
-}
-
-.whale {
-  height: auto;
-}
 
 .flex2 div {
   background: #7bcdba;
