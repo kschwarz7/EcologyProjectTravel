@@ -39,13 +39,16 @@ nav a:focus {
 }
 
 .bg-img {
-  background-image: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_0280.JPG?v=1649792729598");
   width: 100%;
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.whaleheader .bg-img{
+   background-image: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_0280.JPG?v=1649792729598");
 }
 
 .container {
