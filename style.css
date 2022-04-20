@@ -20,8 +20,8 @@ nav a {
   display: inline-block;
   align-items: center;
   padding: 0 20px;
-  text-align: center;
   text-decoration: none;
+  text-align: center;
   text-transform: uppercase;
   font-size: 17px;
   font-weight: bold;
@@ -31,7 +31,7 @@ nav a {
 nav a:hover,
 nav a:focus {
   color: #ddf9c1;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .bg-img {
@@ -146,6 +146,8 @@ i {
 }
 
 h5{
+  font-size: 20px;
+  font-style: bold;
   
 }
 
