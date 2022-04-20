@@ -10,7 +10,8 @@ body {
   background-attachment: fixed;
 }
 
-
+footer? {
+}
 
 /* NAVIGATION */
 
@@ -96,6 +97,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 5px;
 }
 
 .flex {
@@ -133,6 +135,7 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 10px;
 }
 
 .flex2 {
@@ -148,10 +151,9 @@ i {
   margin: 20px;
 }
 
-h5{
+h5 {
   font-size: 20px;
   font-style: bold;
-  
 }
 
 /* MENU PAGE */
@@ -195,6 +197,7 @@ h5{
   background-color: #f16a10;
   color: white;
   transform: rotateY(180deg);
+  padding: 5px;
 }
 
 .tree {
