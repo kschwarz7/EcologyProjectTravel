@@ -203,6 +203,10 @@ h5 {
   padding: 5px;
 }
 
+.algae p, .homebase p {
+  color: black; 
+}
+
 .tree {
   background-color: #536c1b;
 }
