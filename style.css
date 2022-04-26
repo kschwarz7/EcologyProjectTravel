@@ -235,6 +235,22 @@ h5 {
   background-color: #ffe1b3;
 }
 
+.sunset{
+  background-color: #
+}
+
+.mountain{
+  background-color: #
+}
+
+.water{
+  background-color: #
+}
+
+.sandy{
+  background-color: #
+}
+
 .flip-card:hover .flip-card-inner, .flip-card.hover_effect .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -286,16 +302,36 @@ h5 {
 }
 
 .image9 {
-  background: url("");
+  background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_9453.JPG?v=1651014414910");
   background-size: cover;
   background-position: center;
 }
+
+.image10 {
+  background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_9513.JPG?v=1651014440424");
+  background-size: cover;
+  background-position: center;
+}
+
+.image11 {
+  background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_9595.JPG?v=1651014484417");
+  background-size: cover;
+  background-position: center;
+}
+
+.image12 {
+  background: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_9604.JPG?v=1651014548785");
+  background-size: cover;
+  background-position: center;
+}
+
 
 .image {
   background: url("");
   background-size: cover;
   background-position: center;
 }
+
 
 .flip-card-front,
 .flip-card-back {
