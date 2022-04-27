@@ -17,7 +17,7 @@ footer? {
 
 nav a {
   float: left;
-  color: #EE6123;
+  color: #ee6123;
   transition: all 0.5s ease;
   list-style: none;
   margin: 8px;
@@ -47,8 +47,8 @@ nav a:focus {
   position: relative;
 }
 
-.whaleheader .bg-img{
-   background-image: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_9624.JPG?v=1651009603906");
+.whaleheader .bg-img {
+  background-image: url("https://cdn.glitch.global/d1a7471f-0d8d-4044-89e7-a4dda869d354/IMG_9624.JPG?v=1651009603906");
 }
 
 .container {
@@ -167,7 +167,7 @@ h5 {
   align-items: center;
   text-align: center;
   font-size: 30px;
-  line-height: 1.1;
+  line-height: 0;
 }
 
 .wrapper {
@@ -204,8 +204,10 @@ h5 {
   padding: 5px;
 }
 
-.algae p, .homebase p, .sandy p {
-  color: black; 
+.algae p,
+.homebase p,
+.sandy p {
+  color: black;
 }
 
 .tree {
@@ -236,23 +238,24 @@ h5 {
   background-color: #ffe1b3;
 }
 
-.sunset{
-  background-color: #5F4B66
+.sunset {
+  background-color: #5f4b66;
 }
 
-.mountain{
-  background-color: #67AAF9
+.mountain {
+  background-color: #67aaf9;
 }
 
-.water{
-  background-color: #9BBDF9
+.water {
+  background-color: #9bbdf9;
 }
 
-.sandy{
-  background-color: #F7F3E3
+.sandy {
+  background-color: #f7f3e3;
 }
 
-.flip-card:hover .flip-card-inner, .flip-card.hover_effect .flip-card-inner {
+.flip-card:hover .flip-card-inner,
+.flip-card.hover_effect .flip-card-inner {
   transform: rotateY(180deg);
 }
 .flip-card-front {
@@ -326,13 +329,11 @@ h5 {
   background-position: center;
 }
 
-
 .image {
   background: url("");
   background-size: cover;
   background-position: center;
 }
-
 
 .flip-card-front,
 .flip-card-back {
@@ -341,6 +342,10 @@ h5 {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 /* MEDIA QUERIES */
