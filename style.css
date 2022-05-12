@@ -254,6 +254,10 @@ h5 {
   background-color: #f7f3e3;
 }
 
+.art {
+  background-color: #00916E;
+}
+
 .flip-card:hover .flip-card-inner,
 .flip-card.hover_effect .flip-card-inner {
   transform: rotateY(180deg);
